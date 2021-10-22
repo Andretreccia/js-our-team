@@ -33,4 +33,9 @@ const alleanzaRibelle =
         },
 
     ]
-console.log(alleanzaRibelle)
+
+for (let i = 0; i < alleanzaRibelle.length; i++) {
+    const ribelle = alleanzaRibelle[i]
+    console.log(ribelle.name);
+    console.log(ribelle)
+}
